@@ -5,9 +5,8 @@
 
 my_list = [123, 45.6, 'text', True, None]
 print(my_list)
-for el in range(len(my_list)):
-    print(f'"{my_list[el]}":\t{type(my_list[el])}')
-
+for el in my_list:
+    print(type(el))
 
 # 2) Для списка реализовать обмен значений соседних элементов,
 # т.е. значениями обмениваются элементы с индексами 0 и 1, 2 и 3 и т.д.
