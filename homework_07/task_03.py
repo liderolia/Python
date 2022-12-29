@@ -32,5 +32,3 @@ full_name = Position(input("Введите Имя: "), input("Введите ф�
                 input("Введите должность: "), 100000, 10000)
 print(f'Сотрудник: {full_name.get_full_name()}')
 print(f'Заработная плата: {full_name.get_total_income()}')
-
-
