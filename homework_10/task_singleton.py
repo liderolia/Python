@@ -9,10 +9,10 @@ class Singleton(type):
                                         cls).__call__(*args, **kwargs)
         return cls._instances[cls]
 
-class MetaClass(metaclass=Singleton):
+class MyData(metaclass=Singleton):
     pass
 
-a_1  = MetaClass()
-a_2  = MetaClass()
+a_1  = MyData()
+a_2  = MyData()
 print(a_1, a_2)
 print(a_1 == a_2)
